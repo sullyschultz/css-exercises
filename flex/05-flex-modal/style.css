@@ -21,10 +21,8 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   display: flex;
-  align-items: center;
-  
-  flex-wrap: wrap;
-  padding: 10px;
+  gap: 16px; 
+  padding: 16px;
 
 }
 
@@ -39,19 +37,26 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 10px;
+  flex-shrink: 0;
   
 }
 
 .header {
-  font-weight: 800;
-  font-size: 16px;
+  font-weight: 700;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+
 }
 
-.text, .button {
-  margin-left: 50px;
-  
+.text {
+  margin-bottom: 16px;
+
 }
+  
+
 
 .close-button {
   background: #eee;
@@ -64,7 +69,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 150px;
+
 }
 
 button {
